@@ -11,26 +11,26 @@ Project builds to a static library
 
 Using the library against the the actual API would consist of following steps:
 
-<u>Create an instance</u>:
+### Create an instance: ###
 
 `skroutzClient = SkroutzLibrary(id: clientID, secret: clientSecret)`
 
 clientID and secret were provided by API administration team. 
 In the current release you can use random strings
 
-<u>Assign a delegate to inform about successful (or unsuccessful) authentication</u>
+### Assign a delegate to inform about successful (or unsuccessful) authentication: ###
 
 `skroutzClient.delegate = self`
 
 not needed in current implementation (mock API doesn't provide or require authorization)
 
-<u>Request authorization</u>
+### Request authorization ###
 
 `skroutzClient.authorize()`
 
 not needed in current implementation (mock API doesn't provide or require authorization)
 
-<u>Once authorization is succesful, call the get method(s) needed </u>
+### Once authorization is succesful, call the get method(s) needed ###
 
 For example, to get details for a specific category id you call getCategory(id:completion:)
 
