@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD2FE9C02815CBD4002007BC /* SkroutzLibraryDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD2FE9BF2815CBD4002007BC /* SkroutzLibraryDelegate.swift */; };
+		BD51B244282461590027C9FA /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD51B243282461580027C9FA /* Defaults.swift */; };
+		BD8B32B028182A9200915F8D /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B329C28182A8F00915F8D /* Shop.swift */; };
+		BD8B32B128182A9200915F8D /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B329D28182A8F00915F8D /* Category.swift */; };
+		BD8B32B228182A9200915F8D /* BookDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B329E28182A8F00915F8D /* BookDetails.swift */; };
+		BD8B32B328182A9200915F8D /* AutoComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B329F28182A9000915F8D /* AutoComplete.swift */; };
+		BD8B32B428182A9200915F8D /* SkuMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32A028182A9000915F8D /* SkuMeta.swift */; };
+		BD8B32B528182A9200915F8D /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32A128182A9000915F8D /* Book.swift */; };
+		BD8B32B628182A9200915F8D /* AppliedFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32A228182A9000915F8D /* AppliedFilter.swift */; };
+		BD8B32B728182A9200915F8D /* History.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32A328182A9000915F8D /* History.swift */; };
+		BD8B32B828182A9200915F8D /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32A428182A9000915F8D /* Meta.swift */; };
+		BD8B32B928182A9200915F8D /* Specification.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32A528182A9000915F8D /* Specification.swift */; };
+		BD8B32BA28182A9200915F8D /* Manufacturer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32A628182A9000915F8D /* Manufacturer.swift */; };
+		BD8B32BC28182A9200915F8D /* RatingBreakdownMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32A828182A9100915F8D /* RatingBreakdownMeta.swift */; };
+		BD8B32BD28182A9200915F8D /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32A928182A9100915F8D /* Review.swift */; };
+		BD8B32BE28182A9200915F8D /* AvailableFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32AA28182A9100915F8D /* AvailableFilter.swift */; };
+		BD8B32C028182A9200915F8D /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32AC28182A9100915F8D /* Product.swift */; };
+		BD8B32C128182A9200915F8D /* Sku.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32AD28182A9200915F8D /* Sku.swift */; };
+		BD8B32C228182A9200915F8D /* SearchMeta.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32AE28182A9200915F8D /* SearchMeta.swift */; };
+		BD8B32C328182A9200915F8D /* FilterGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD8B32AF28182A9200915F8D /* FilterGroup.swift */; };
+		BDA73FBF281C8737002E12D8 /* FilterChoicesForSku.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA73FBE281C8736002E12D8 /* FilterChoicesForSku.swift */; };
+		BDB32D502811F6B600D1612D /* SkroutzLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB32D4F2811F6B600D1612D /* SkroutzLibrary.swift */; };
+		BDB32D572811FBA300D1612D /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB32D562811FBA300D1612D /* Token.swift */; };
+		BDE19B17281324AE00F6DA65 /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19B16281324AE00F6DA65 /* HttpMethod.swift */; };
+		BDE19B192813545C00F6DA65 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19B182813545C00F6DA65 /* ApiError.swift */; };
+		BDE19B1B281354F400F6DA65 /* SkroutzError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19B1A281354F400F6DA65 /* SkroutzError.swift */; };
+		BDE19B1E2813561E00F6DA65 /* HttpResponseCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE19B1D2813561E00F6DA65 /* HttpResponseCode.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BDB32D4A2811F6B600D1612D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD2FE9BF2815CBD4002007BC /* SkroutzLibraryDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkroutzLibraryDelegate.swift; sourceTree = "<group>"; };
+		BD51B243282461580027C9FA /* Defaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		BD8B329C28182A8F00915F8D /* Shop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		BD8B329D28182A8F00915F8D /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		BD8B329E28182A8F00915F8D /* BookDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookDetails.swift; sourceTree = "<group>"; };
+		BD8B329F28182A9000915F8D /* AutoComplete.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoComplete.swift; sourceTree = "<group>"; };
+		BD8B32A028182A9000915F8D /* SkuMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkuMeta.swift; sourceTree = "<group>"; };
+		BD8B32A128182A9000915F8D /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		BD8B32A228182A9000915F8D /* AppliedFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppliedFilter.swift; sourceTree = "<group>"; };
+		BD8B32A328182A9000915F8D /* History.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = History.swift; sourceTree = "<group>"; };
+		BD8B32A428182A9000915F8D /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		BD8B32A528182A9000915F8D /* Specification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Specification.swift; sourceTree = "<group>"; };
+		BD8B32A628182A9000915F8D /* Manufacturer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Manufacturer.swift; sourceTree = "<group>"; };
+		BD8B32A828182A9100915F8D /* RatingBreakdownMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingBreakdownMeta.swift; sourceTree = "<group>"; };
+		BD8B32A928182A9100915F8D /* Review.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
+		BD8B32AA28182A9100915F8D /* AvailableFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableFilter.swift; sourceTree = "<group>"; };
+		BD8B32AC28182A9100915F8D /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		BD8B32AD28182A9200915F8D /* Sku.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sku.swift; sourceTree = "<group>"; };
+		BD8B32AE28182A9200915F8D /* SearchMeta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMeta.swift; sourceTree = "<group>"; };
+		BD8B32AF28182A9200915F8D /* FilterGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterGroup.swift; sourceTree = "<group>"; };
+		BDA73FBE281C8736002E12D8 /* FilterChoicesForSku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterChoicesForSku.swift; sourceTree = "<group>"; };
+		BDB32D4C2811F6B600D1612D /* libSkroutzLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSkroutzLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB32D4F2811F6B600D1612D /* SkroutzLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkroutzLibrary.swift; sourceTree = "<group>"; };
+		BDB32D562811FBA300D1612D /* Token.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Token.swift; sourceTree = "<group>"; };
+		BDE19B16281324AE00F6DA65 /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		BDE19B182813545C00F6DA65 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		BDE19B1A281354F400F6DA65 /* SkroutzError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkroutzError.swift; sourceTree = "<group>"; };
+		BDE19B1D2813561E00F6DA65 /* HttpResponseCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponseCode.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB32D492811F6B600D1612D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD51B245282463240027C9FA /* Supporting Enums */ = {
+			isa = PBXGroup;
+			children = (
+				BD51B243282461580027C9FA /* Defaults.swift */,
+				BDE19B182813545C00F6DA65 /* ApiError.swift */,
+			);
+			path = "Supporting Enums";
+			sourceTree = "<group>";
+		};
+		BD51B246282463370027C9FA /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				BD2FE9BF2815CBD4002007BC /* SkroutzLibraryDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		BDB32D432811F6B500D1612D = {
+			isa = PBXGroup;
+			children = (
+				BDB32D4E2811F6B600D1612D /* SkroutzLibrary */,
+				BDB32D4D2811F6B600D1612D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB32D4D2811F6B600D1612D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB32D4C2811F6B600D1612D /* libSkroutzLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB32D4E2811F6B600D1612D /* SkroutzLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				BDB32D4F2811F6B600D1612D /* SkroutzLibrary.swift */,
+				BD51B245282463240027C9FA /* Supporting Enums */,
+				BDE19B1C2813550300F6DA65 /* Decoder Structs */,
+				BD51B246282463370027C9FA /* Protocols */,
+				BDE19B1F2813567B00F6DA65 /* Http enums */,
+			);
+			path = SkroutzLibrary;
+			sourceTree = "<group>";
+		};
+		BDE19B1C2813550300F6DA65 /* Decoder Structs */ = {
+			isa = PBXGroup;
+			children = (
+				BDE19B1A281354F400F6DA65 /* SkroutzError.swift */,
+				BD8B32A228182A9000915F8D /* AppliedFilter.swift */,
+				BD8B329F28182A9000915F8D /* AutoComplete.swift */,
+				BD8B32AA28182A9100915F8D /* AvailableFilter.swift */,
+				BD8B32A128182A9000915F8D /* Book.swift */,
+				BD8B329E28182A8F00915F8D /* BookDetails.swift */,
+				BD8B329D28182A8F00915F8D /* Category.swift */,
+				BD8B32AF28182A9200915F8D /* FilterGroup.swift */,
+				BD8B32A328182A9000915F8D /* History.swift */,
+				BD8B32A628182A9000915F8D /* Manufacturer.swift */,
+				BD8B32A428182A9000915F8D /* Meta.swift */,
+				BD8B32AC28182A9100915F8D /* Product.swift */,
+				BD8B32A828182A9100915F8D /* RatingBreakdownMeta.swift */,
+				BD8B32A928182A9100915F8D /* Review.swift */,
+				BD8B32AE28182A9200915F8D /* SearchMeta.swift */,
+				BD8B329C28182A8F00915F8D /* Shop.swift */,
+				BD8B32AD28182A9200915F8D /* Sku.swift */,
+				BD8B32A028182A9000915F8D /* SkuMeta.swift */,
+				BD8B32A528182A9000915F8D /* Specification.swift */,
+				BDB32D562811FBA300D1612D /* Token.swift */,
+				BDA73FBE281C8736002E12D8 /* FilterChoicesForSku.swift */,
+			);
+			path = "Decoder Structs";
+			sourceTree = "<group>";
+		};
+		BDE19B1F2813567B00F6DA65 /* Http enums */ = {
+			isa = PBXGroup;
+			children = (
+				BDE19B16281324AE00F6DA65 /* HttpMethod.swift */,
+				BDE19B1D2813561E00F6DA65 /* HttpResponseCode.swift */,
+			);
+			path = "Http enums";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB32D4B2811F6B600D1612D /* SkroutzLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB32D532811F6B600D1612D /* Build configuration list for PBXNativeTarget "SkroutzLibrary" */;
+			buildPhases = (
+				BDB32D482811F6B600D1612D /* Sources */,
+				BDB32D492811F6B600D1612D /* Frameworks */,
+				BDB32D4A2811F6B600D1612D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkroutzLibrary;
+			productName = SkroutzLibrary;
+			productReference = BDB32D4C2811F6B600D1612D /* libSkroutzLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB32D442811F6B500D1612D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					BDB32D4B2811F6B600D1612D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BDB32D472811F6B500D1612D /* Build configuration list for PBXProject "SkroutzLibrary" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB32D432811F6B500D1612D;
+			productRefGroup = BDB32D4D2811F6B600D1612D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB32D4B2811F6B600D1612D /* SkroutzLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB32D482811F6B600D1612D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD51B244282461590027C9FA /* Defaults.swift in Sources */,
+				BD8B32C328182A9200915F8D /* FilterGroup.swift in Sources */,
+				BDE19B17281324AE00F6DA65 /* HttpMethod.swift in Sources */,
+				BD8B32B728182A9200915F8D /* History.swift in Sources */,
+				BDA73FBF281C8737002E12D8 /* FilterChoicesForSku.swift in Sources */,
+				BD8B32B428182A9200915F8D /* SkuMeta.swift in Sources */,
+				BD2FE9C02815CBD4002007BC /* SkroutzLibraryDelegate.swift in Sources */,
+				BD8B32BC28182A9200915F8D /* RatingBreakdownMeta.swift in Sources */,
+				BD8B32B028182A9200915F8D /* Shop.swift in Sources */,
+				BDE19B1B281354F400F6DA65 /* SkroutzError.swift in Sources */,
+				BDB32D502811F6B600D1612D /* SkroutzLibrary.swift in Sources */,
+				BD8B32B828182A9200915F8D /* Meta.swift in Sources */,
+				BD8B32BD28182A9200915F8D /* Review.swift in Sources */,
+				BDE19B1E2813561E00F6DA65 /* HttpResponseCode.swift in Sources */,
+				BD8B32C028182A9200915F8D /* Product.swift in Sources */,
+				BD8B32B128182A9200915F8D /* Category.swift in Sources */,
+				BD8B32BE28182A9200915F8D /* AvailableFilter.swift in Sources */,
+				BD8B32C228182A9200915F8D /* SearchMeta.swift in Sources */,
+				BD8B32B628182A9200915F8D /* AppliedFilter.swift in Sources */,
+				BD8B32B328182A9200915F8D /* AutoComplete.swift in Sources */,
+				BDE19B192813545C00F6DA65 /* ApiError.swift in Sources */,
+				BDB32D572811FBA300D1612D /* Token.swift in Sources */,
+				BD8B32B928182A9200915F8D /* Specification.swift in Sources */,
+				BD8B32B228182A9200915F8D /* BookDetails.swift in Sources */,
+				BD8B32BA28182A9200915F8D /* Manufacturer.swift in Sources */,
+				BD8B32B528182A9200915F8D /* Book.swift in Sources */,
+				BD8B32C128182A9200915F8D /* Sku.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BDB32D512811F6B600D1612D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB32D522811F6B600D1612D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB32D542811F6B600D1612D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BY2L497RJ;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB32D552811F6B600D1612D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9BY2L497RJ;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB32D472811F6B500D1612D /* Build configuration list for PBXProject "SkroutzLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB32D512811F6B600D1612D /* Debug */,
+				BDB32D522811F6B600D1612D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB32D532811F6B600D1612D /* Build configuration list for PBXNativeTarget "SkroutzLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB32D542811F6B600D1612D /* Debug */,
+				BDB32D552811F6B600D1612D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB32D442811F6B500D1612D /* Project object */;
+}
