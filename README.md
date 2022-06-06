@@ -20,13 +20,13 @@ In the current release you can use random strings
 
 <u>Assign a delegate to inform about successful (or unsuccessful) authentication</u>
 
-`skroutzClient?.delegate = self`
+`skroutzClient.delegate = self`
 
 not needed in current implementation (mock API doesn't provide or require authorization)
 
 <u>Request authorization</u>
 
-`skroutzClient.authorize().`
+`skroutzClient.authorize()`
 
 not needed in current implementation (mock API doesn't provide or require authorization)
 
